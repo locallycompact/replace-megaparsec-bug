@@ -1,9 +1,7 @@
 #!/usr/bin/env stack
-{- stack --resolver nightly-2020-09-25 runhaskell --package rio  --package megaparsec --package replace-megaparsec -}
+{- stack --resolver lts-16.16 runhaskell --package rio  --package megaparsec --package replace-megaparsec -}
 {-# LANGUAGE OverloadedStrings #-}
 module Main where
-
-import Lib
 
 import RIO.State
 import RIO.Lens

@@ -1,8 +1,6 @@
 {-# LANGUAGE OverloadedStrings #-}
 module Main where
 
-import Lib
-
 import RIO.State
 import RIO.Lens
 import RIO hiding (many)
